@@ -1,0 +1,53 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+header{
+    background: #0b9f2b;
+    color: antiquewhite;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    color: antiquewhite;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.hero{
+    text-align: center;
+    padding: 40px;
+    background: #fff;
+}
+.Food-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.food-item{
+    background: #fff;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 200px;
+}
+button{
+    background: yellowgreen;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    background:red;
+}
+#Cart{
+    background: grey;
+    padding: 30px;
+    margin: 20px;
+}

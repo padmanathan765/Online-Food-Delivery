@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>ONLINE FOOD DELIVERY</title>
+        <link rel="stylesheet" href="Online Food Delivery.css">
+        <script src="Online Food Delivery.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>FoodExpress</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#cart">Cart</a>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <h2>Delicious Food Delivered To You</h2>
+            <p>Order Your Favourite Meals Online</p>
+        </section>
+        <section id="Menu">
+            <h2>Menu</h2>
+            <div class="Food-container">
+                <div class="food-item">
+                    <h3>Pizza</h3>
+                    <p>₹250</p>
+                    <button onclick="addToCart('Pizza',250)">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="food-item">
+                    <h3>Burger</h3>
+                    <p>₹120</p>
+                    <button onclick="addToCart('Burger',120)">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="food-item">
+                    <h3>Fried Rice</h3>
+                    <p>₹180</p>
+                    <button onclick="addToCart('Fried Rice',180)">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="food-item">
+                    <h3>Pasta</h3>
+                    <p>₹200</p>
+                    <button onclick="addToCart('Pasta',200)">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="Cart">
+            <h2>Your Cart</h2>
+            <ul id="cart-items"></ul>
+            <h3>Total:₹<span id="total">0</span></h3>
+        </section>
+        <script src="Online Food Delivery.js"></script>
+    </body>
+</html>
